@@ -1,5 +1,6 @@
 import azure.functions as func
 import logging
+#nota: el nombre del archivo debe ser function_app.py, de lo contrario no se ejecutará la función.
 
 app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 
